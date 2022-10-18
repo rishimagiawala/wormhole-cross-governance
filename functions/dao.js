@@ -1,6 +1,13 @@
 const functions = require('firebase-functions');
+const admin = require('firebase-admin');
+admin.initializeApp(functions.config(functions).firebase);
+let app = admin.app();
+
 exports.createDAO = functions.https.onRequest((request, response) => {
-  functions.logger.log("Hello this is Rishi");
+  let ref = app.database('https://heynow.firebaseio.com').ref();
+  ref.push({"hey" : "yo"})
+  response.send("Completed").status(200);
+
 });
 exports.readDAO = functions.https.onRequest((request, response) => {
   // ...
