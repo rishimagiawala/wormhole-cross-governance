@@ -8,6 +8,8 @@ module.exports = {
     extend: {
       colors: {
         'wormhole-purple': '#38214B',
+        'wormhole-blue' : '#13132B',
+        'wormhole-pink' : '#673B76'
       },
     },
   },
