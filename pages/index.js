@@ -13,7 +13,7 @@ export default function Home() {
           <h1 class="text-3xl font-bold tracking-tight text-gray-900">View DAOs</h1>
           <div class='flex flex-row'>
             <div class='mr-3'>
-              <input type="text" id="company" class="bg-gray-50 border border-gray-300 text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-wormhole-purple dark:focus:border-wormhole-purple" placeholder="Search" required />
+              <input type="text" id="company" class="bg-gray-50 border border-gray-300 text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white focus:ring-wormhole-purple dark:focus:border-wormhole-purple" placeholder="Search" required />
             </div>
             <button class="block bg-wormhole-purple hover:bg-wormhole-purple/75 text-white font-bold py-2 px-4 rounded text-center inline-flex items-center">
 
@@ -34,10 +34,7 @@ export default function Home() {
              <DaoCard name="Ukraine.SOL" image="https://cdn.britannica.com/14/4814-004-7C0DF1BB/Flag-Ukraine.jpg"/>
              <DaoCard name="Ukraine.SOL" image="https://cdn.britannica.com/14/4814-004-7C0DF1BB/Flag-Ukraine.jpg"/>
              <DaoCard name="Ukraine.SOL" image="https://cdn.britannica.com/14/4814-004-7C0DF1BB/Flag-Ukraine.jpg"/>
-             <DaoCard name="Ukraine.SOL" image="https://cdn.britannica.com/14/4814-004-7C0DF1BB/Flag-Ukraine.jpg"/>
-             <DaoCard name="Ukraine.SOL" image="https://cdn.britannica.com/14/4814-004-7C0DF1BB/Flag-Ukraine.jpg"/>
-             <DaoCard name="Ukraine.SOL" image="https://cdn.britannica.com/14/4814-004-7C0DF1BB/Flag-Ukraine.jpg"/>
-             <DaoCard name="Ukraine.SOL" image="https://cdn.britannica.com/14/4814-004-7C0DF1BB/Flag-Ukraine.jpg"/>
+            
             
             </div>
           </div>
