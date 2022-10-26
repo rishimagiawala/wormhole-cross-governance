@@ -17,10 +17,7 @@ export default function NavBar1() {
               <a href="#" class="text-base block py-2 pr-4 pl-3 text-gray-700 rounded">About</a>
             </li>
             <li>
-              <a href="#" class="text-base block py-2 pr-4 pl-3 text-gray-700 rounded">Services</a>
-            </li>
-            <li>
-              <a href="#" class="text-base block py-2 pr-4 pl-3 text-gray-700 rounded">Pricing</a>
+              <a href="#" class="text-base block py-2 pr-4 pl-3 text-gray-700 rounded">Discord</a>
             </li>
             <li>
 
